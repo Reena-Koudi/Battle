@@ -1,4 +1,5 @@
-require './app'
+require File.join(File.dirname(__FILE__), '..', 'app.rb')
+require_relative 'web_helpers.rb'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
